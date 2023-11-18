@@ -1,0 +1,99 @@
+body{
+    background-image: url(us.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 1000px;
+}
+.notes{
+    width: 130px;
+}
+.player{
+background-image: url(lemonade.png);
+background-repeat: no-repeat;
+height: 396px;
+width: 400px;
+position: relative;
+transition: 1s;
+background-size: 400px 400px;
+border-radius: 4%;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 32%;
+    background-color: darkgray;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+}
+
+.play{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+   
+    background-image: url(play.png);
+    background-size: 50px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.prev{
+    margin-right: 5px;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+   
+    background-image: url(backward.png);
+    background-size: 22px 22px;
+}
+.next{
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+   
+    background-image: url(forward.png);
+    background-size: 22px 22px;
+}
+.progress-bar{
+    position: relative;
+    width: 280px;
+    height: 5px;
+    background-color:aqua;
+    top: 370px;
+    left: 60px;
+    cursor: pointer;
+}
+.progress-line{
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color:blanchedalmond;
+    border-right: 2px solid purple;
+    
+}
+.pause{
+    background-image: url(pause.png);
+   
+}
+
+.pause1{
+    
+    background-size: 500px 500px;
+   background-position: center;
+}
